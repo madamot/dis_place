@@ -1,0 +1,59 @@
+html, body {
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    font-family: 'Arvo', serif;
+
+}
+
+h3 {
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.feedback {
+  font-size: 0.7em;
+  color: red;
+}
+
+.topnav {
+  position: absolute;
+  font-size: 1.5em;
+}
+
+.formContainer {
+  position: absolute;
+  background-color: rgba(163, 174, 186, 0.6);
+  padding: 2%;
+  margin: 50px;
+  border-radius: 30px;
+  width: 35%;
+  height: auto;
+  top: 0;
+  right: 0;
+}
+@media all and (max-width: 868px) {
+  .formContainer {
+    width: 90%;
+    margin: 0;
+    background-color: rgba(163, 174, 186, 0.9);
+    z-index: 1;
+    margin-top: 50px;
+
+    /* margin-left: 50px;
+    margin-right: 50px; */
+  }
+}
+
+input {
+  padding: 10px;
+  border-radius: 30px;
+  background-color: rgba(119, 136, 153, 0.6);
+  border: solid 2px rgb(163, 174, 186);
+  font-size: 0.8em;
+}
